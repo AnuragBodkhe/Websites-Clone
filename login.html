@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISUMI Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="contact-info">
+            <span class="phone">Tel: 0124-4688 800</span>
+            <span class="email">Email: cs@misumi.co.in</span>
+            <span class="hours">9:00am - 5:30pm (Monday to Saturday)</span>
+        </div>
+        <div class="top-actions">
+            <a href="#" class="help-link">How to use</a>
+            <a href="#" class="register-btn">Register Now</a>
+            <div class="language-selector">
+                <span class="selected">English</span>
+                <span class="divider">|</span>
+                <span>हिंदी</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="logo-search">
+                <div class="logo">
+                    <img src="misumi-logo.png" alt="MISUMI">
+                    <span class="tagline">Your Time, Our Priority</span>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Enter Keyword, Part Number (English only)" class="search-input">
+                    <button class="search-btn">Search</button>
+                    <button class="quote-btn">Quote / Order</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="login-box">
+            <h2>Login to MISUMI</h2>
+            <form id="loginForm" class="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-button">Login</button>
+                <div class="register-link">
+                    Don't have an account? <a href="#">Register Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html> 

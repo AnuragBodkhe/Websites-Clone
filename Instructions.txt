@@ -1,0 +1,16 @@
+Instructions
+Run login.html:
+
+Locate the login.html file in your system.
+
+Double-click the file to open it in a web browser (Chrome, Firefox, Edge, etc.).
+
+Alternatively, right-click the file, select Open With, and choose your preferred browser.
+
+Enter Login Credentials:
+
+In the login form, enter the following details:
+
+Username: 123
+
+Password: 123

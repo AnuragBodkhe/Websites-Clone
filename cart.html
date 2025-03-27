@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - MISUMI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="contact-info">
+            <span class="phone">Tel: 0124-4688 800</span>
+            <span class="email">Email: cs@misumi.co.in</span>
+            <span class="hours">9:00am - 5:30pm (Monday to Saturday)</span>
+        </div>
+        <div class="top-actions">
+            <a href="index.html" class="back-to-shop">Back to Shop</a>
+            <a href="#" class="help-link">How to use</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Shopping Cart</h1>
+        
+        <div class="cart-container">
+            <div class="cart-items">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items">
+                        <!-- Cart items will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-item">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">₹0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Shipping:</span>
+                    <span id="shipping">₹100.00</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Total:</span>
+                    <span id="total">₹0.00</span>
+                </div>
+                <button id="checkout-btn" class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="cart-empty-message" class="cart-empty">
+        <h2>Your cart is empty</h2>
+        <p>Looks like you haven't added any items to your cart yet.</p>
+        <a href="index.html" class="continue-shopping">Continue Shopping</a>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html> 
