@@ -41,3 +41,29 @@ A responsive frontend clone of Misumi's industrial components marketplace, imple
 1. Clone repository:
 ```bash
 https://github.com/AnuragBodkhe/Websites-Clone.git
+
+Usage 🚀
+Browse products in grid layout
+
+Use search bar for instant filtering
+
+Click "Add to Cart" to store items
+
+Access cart using top-right icon
+
+Modify quantities in cart view
+
+Mobile: Hamburger menu for navigation
+
+Code Structure 📂
+Copy
+misumi-clone/
+├── index.html          # Main entry point
+├── style.css           # Global styles
+├── script.js           # Main JavaScript logic
+├── products/           # Product data/images
+│   ├── data.json       # Product dataset
+│   └── images/         # Product images
+└── assets/             # Static assets
+    ├── icons/          # SVG icons
+    └── fonts/          # Custom fonts
