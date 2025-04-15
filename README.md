@@ -40,4 +40,4 @@ A responsive frontend clone of Misumi's industrial components marketplace, imple
 
 1. Clone repository:
 ```bash
-git clone https://github.com/AnuragBodkhe/Websites-Clone.git
+https://github.com/AnuragBodkhe/Websites-Clone.git
